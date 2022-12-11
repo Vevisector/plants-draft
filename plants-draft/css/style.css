@@ -49,6 +49,7 @@
        url('../fonts/inika-v21-latin-700.woff') format('woff'), /* Modern Browsers */
        url('../fonts/inika-v21-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/inika-v21-latin-700.svg#Inika') format('svg'); /* Legacy iOS */
+      
 }
 html{
   box-sizing: border-box;
@@ -109,4 +110,8 @@ body{
   .header-logo{
     margin:52px 0 61px 0;
   }
+
 /** Header-End */
+
+/** Plants-start */
+
