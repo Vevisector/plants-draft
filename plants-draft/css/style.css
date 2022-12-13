@@ -51,6 +51,9 @@
        url('../fonts/inika-v21-latin-700.svg#Inika') format('svg'); /* Legacy iOS */
       
 }
+
+/* Fonts-End */
+
 html{
   box-sizing: border-box;
 }
@@ -61,9 +64,10 @@ html{
 }
 body{
   font-family: Inter;
+  background: #EDF2EC;
 }
 .wrapper{
-  max-width: 1220px;
+  max-width: 1440px;
   margin:0 auto;
 }
 
@@ -75,7 +79,10 @@ body{
 /** Header-Start */
 
   .header{
-    font-family: 'Inika';
+    vertical-align: bottom;
+    line-height: 50px;
+    background: #EDF2EC;
+    font-family: Inika;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -85,16 +92,27 @@ body{
 .header-container{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     align-items: center;
+    margin-bottom: 62px;
+
   }
 
   .header-list{
     display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end ;
   }
 
   .header-item{
-    padding-right: 46px;
+    margin-right: 46px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+  }
+
+  .header-item:last-child{
+    margin-right: 21px;
   }
   
   .link-home{
@@ -102,14 +120,130 @@ body{
     font-weight: 700;
     color: #E06733;
   }
-
+  
+  .header-logo-link{
+    line-height: 21px;
+  }
   .header-item:last-child{
-    padding-right:109px ;
+    padding-right: 109px;
   }
   
   .header-logo{
     margin:52px 0 61px 0;
   }
+  .plant-picture{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+  }
+/** Header-End */
+
+/** Welcome-start */
+
+.welcome{
+  background: #EDF2EC;
+  margin-bottom: 93px;
+}
+.welcome-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome-info{
+  padding-left:224px;
+}
+
+.leaf-pict{
+  margin-bottom: 62px;
+}
+
+.welcome-title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: #717171;
+  margin-bottom:42px;
+  margin-right:109px;
+}
+
+.important{
+   color:#499A18;
+}
+
+.welcome-description{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  margin-bottom: 48px;
+  margin-right:132px;
+}
+
+.button-more-info{
+  padding: 14px 27px;
+  border: 2px solid #E06733;
+  border-radius: 10px;  
+  font-family: 'Inter';
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+  
+}
+
+.button-more-info:hover,
+.button-more-info:active,
+.button-more-info:focus{
+  background-color: wheat;
+}
+
+/** Welcome-End */
+
+/* About-start */
+
+.wrapper-about{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.about-container{
+  display: flex;
+}
+
+.title-about{
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+  margin-top: 161px;
+}
+
+.about-description{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+
+}
+
+.important-about{
+  color:#E06733;
+}
+
+/* About-End */
 
 /** Header-End */
 
