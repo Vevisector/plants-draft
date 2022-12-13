@@ -249,3 +249,12 @@ body{
 
 /** Plants-start */
 
+.pract{
+  width: 400px;
+  height: 400px;
+  background: #E06733;
+}
+.pract:hover{
+  
+  background-color: black;
+}
