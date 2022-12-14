@@ -92,8 +92,9 @@ body{
 .header-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 62px;
+    align-items: baseline;
+    margin-bottom: 39px;
+    margin-left: 112px;
 
   }
 
@@ -101,18 +102,20 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content:flex-end ;
+    text-align: bottom;
   }
 
   .header-item{
-    margin-right: 46px;
+    margin-right: 47px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 50px;
+    font-family: Inika;
+    
   }
-
   .header-item:last-child{
-    margin-right: 21px;
+    margin-right: 109px;
   }
   
   .link-home{
@@ -120,14 +123,6 @@ body{
     font-weight: 700;
     color: #E06733;
   }
-  
-  .header-logo-link{
-    line-height: 21px;
-  }
-  .header-item:last-child{
-    padding-right: 109px;
-  }
-  
   .header-logo{
     margin:52px 0 61px 0;
   }
@@ -144,24 +139,26 @@ body{
 
 .welcome{
   background: #EDF2EC;
-  margin-bottom: 93px;
 }
 .welcome-container{
   display: flex;
   justify-content: space-between;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
 }
 
 .welcome-info{
-  padding-left:224px;
+  margin-left:220px;
 }
 
 .leaf-pict{
-  margin-bottom: 62px;
+  margin-bottom: 48px;
+  margin-left:101px;
 }
 
 .welcome-title{
-  font-family: 'Inter';
-  font-style: normal;
+  padding-top:40px ;
   font-weight: 700;
   font-size: 45px;
   line-height: 50px;
@@ -175,8 +172,6 @@ body{
 }
 
 .welcome-description{
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 35px;
@@ -185,20 +180,16 @@ body{
 }
 
 .button-more-info{
-  padding: 14px 27px;
+  padding: 11px 26px;
   border: 2px solid #E06733;
   border-radius: 10px;  
-  font-family: 'Inter';
-  font-style: normal;
   text-transform: uppercase;
-  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   transition: 0.5s;
   cursor: pointer;
-  
+  font-family: Inter;
 }
-
 .button-more-info:hover,
 .button-more-info:active,
 .button-more-info:focus{
@@ -207,7 +198,7 @@ body{
 
 /** Welcome-End */
 
-/* About-start */
+/** About-start */
 
 .wrapper-about{
     max-width: 1440px;
@@ -217,8 +208,13 @@ body{
 
 .about-container{
   display: flex;
+  justify-content: space-around;
+  margin-right: 109px;
 }
 
+.about-info{
+  margin-left:109px
+}
 .title-about{
   font-family: 'Inika';
   font-style: normal;
@@ -226,7 +222,7 @@ body{
   font-size: 40px;
   line-height: 52px;
   color: #499A18;
-  margin-top: 161px;
+  margin: 162px 190px 37px 0;
 }
 
 .about-description{
@@ -236,25 +232,48 @@ body{
   font-size: 20px;
   line-height: 30px;
   color: #636060;
+  margin-right: 153px;
+  margin-bottom:154px;
+}
 
+.plant-picture{
+  margin-top: 94px;
 }
 
 .important-about{
   color:#E06733;
 }
 
-/* About-End */
+/** About-End */
 
-/** Header-End */
+/** Service-start */
 
-/** Plants-start */
-
-.pract{
-  width: 400px;
-  height: 400px;
-  background: #E06733;
+.service-header{
+  display: flex;
+  justify-content: space-between;
 }
-.pract:hover{
-  
-  background-color: black;
+
+.service-title{
+  margin-left:109px;
 }
+
+.service-buttons-menu{
+  display: flex;
+}
+
+.service-button-item{
+  margin-right: 38px;
+  padding: 12px 40px;
+  border: 2px solid #E06733;
+  border-radius: 5px;  
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+  font-family: Inter;
+}
+
+
+
+/** Service-start */
